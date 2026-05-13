@@ -5,8 +5,10 @@ html, body {
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 24px;
     min-height: 100vh;
     background-color: #f0e6dd;
 }
