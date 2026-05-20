@@ -17,4 +17,50 @@ button#Bonjour {
     border-radius: 15px;
     padding: 20px 40px;
     font-size: 24px;
+    border: none;
+    background-color: #8c7768;
+    color: white;
+}
+
+button#Bonjour:hover {
+    background-color: #726153;
+}
+
+#text-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.message-wrapper {
+    display: flex;
+    gap: 12px;
+}
+
+.message-field {
+    border-radius: 15px;
+    padding: 16px 20px;
+    font-size: 20px;
+    width: min(400px, 90vw);
+    border: 2px solid #c8b8a7;
+    background: #fff;
+    outline: none;
+}
+
+.message-field:focus {
+    border-color: #8c7768;
+}
+
+.send-button {
+    border-radius: 15px;
+    padding: 16px 28px;
+    font-size: 20px;
+    border: none;
+    background-color: #8c7768;
+    color: white;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background-color: #726153;
 }
